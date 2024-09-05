@@ -44,13 +44,13 @@ const showwinner = (userwin, userchoice, compchoice) => {
         userscore++;
         userscorepara.innerText = userscore;
         msg.innerText = `You Won. Your ${userchoice} beats ${compchoice}.`;
-        msg.style.backgroundColor = "green";
+        msg.style.backgroundColor = "#4CAF50";
     }
     else{
         compscore++;
         compscorepara.innerText = compscore;
         msg.innerText = `You Lost. ${compchoice} beats your ${userchoice}.`;
-        msg.style.backgroundColor = "red";
+        msg.style.backgroundColor = "#F44336";
     }
 }
 
